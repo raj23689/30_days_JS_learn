@@ -1,0 +1,82 @@
+/* CSS Reset - Removes default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Basic body styling */
+body {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f9;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Title/Prompt styling */
+.taken_num p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Input fields styling */
+.taken_num input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.taken_num input:focus {
+    border-color: #007BFF;
+}
+
+/* Select dropdown styling */
+#choiceSelection {
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+#choiceSelection:focus {
+    border-color: #007BFF;
+}
+
+/* Result styling */
+#result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Optional: Styling for the option elements */
+option {
+    padding: 10px;
+}
