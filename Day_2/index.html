@@ -11,7 +11,7 @@
       <header>
         <h1>Guess the number</h1>
       </header>
-      <form class="choices">
+      <form class="choices" id="myChoice">
         <label for="select1">Select 1:</label>
         <select id="select1">
           <option value="">Select a number</option>
@@ -21,7 +21,13 @@
         <select id="select2">
           <option value="">Select a number</option>
         </select>
+        <div class="guessed_number">          
+            <p>Your Guess:</p>
+            <input type="number" name="num1" id="num1" />
+        </div>
+        <button type="button" id="submitButton">Guess</button>
       </form>
+      <p id="results"></p>
     </div>
     <script src="index.js" defer></script>
   </body>
